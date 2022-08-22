@@ -1,0 +1,35 @@
+
+
+// @mixin rotade {
+//  syntax: "<angle>";
+//  initial-value: 132deg;
+//  inherits: false;
+// }
+
+$default: #f2f2f2;
+$ac:#6E57CF;
+$ac2:#6D2691;
+$black:#2F2F2F;
+$gray7:#777;
+$link:#e7505d;
+
+$spin:rotateZ(132deg);
+
+
+%name{
+ font-family: 'Literata-Medium', sans-serif;
+ font-weight: 500;
+ font-style: normal;
+}
+
+%title{
+ font-family: 'Nunito-BoldItalic', sans-serif;
+ font-weight: 700;
+ font-style: italic;
+}
+
+%text{
+ font-family: 'Nunito-Medium', sans-serif;
+ font-weight: 500;
+ font-style: normal;
+}

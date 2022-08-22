@@ -1,0 +1,23 @@
+@font-face{
+ font-family: 'Literata-Medium';
+ src: local('Literata-Medium'),
+         url('../fonts/Literata-Medium.woff2') format('woff2'),
+         url('../fonts/Literata-Medium.woff') format('woff');      
+ font-display: swap;
+}
+
+ @font-face{
+        font-family: 'Nunito-BoldItalic';
+        src: local('Nunito-BoldItalic'),
+                url('../fonts/Nunito-BoldItalic.woff2') format('woff2'),
+                url('../fonts/Nunito-BoldItalic.woff') format('woff');      
+        font-display: swap;
+}
+@font-face{
+        font-family: 'Nunito-Medium';
+        src: local('Nunito-Medium'),
+                url('../fonts/Nunito-Medium.woff2') format('woff2'),
+                url('../fonts/Nunito-Medium.woff') format('woff');      
+        font-display: swap;
+}
+
