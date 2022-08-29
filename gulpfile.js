@@ -81,6 +81,9 @@ function build() {
         'app/css/style.min.css',
         'app/fonts/**.**',
         'app/favicon/**.**',
+        'app/swiper/swiper-bundle.min.css',
+        'app/swiper/modules/navigation/navigation.min.css',
+        'app/swiper/modules/pagination/pagination.min.css',
         'app/js/tabs.js',
         'app/js/main.min.js'
     ], {base: 'app'})
