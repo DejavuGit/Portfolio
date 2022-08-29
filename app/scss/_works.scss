@@ -1,4 +1,8 @@
-
+.picture{
+   height: 70vh;
+   display: flex;
+  align-items: center;
+}
 .label {
    display: flex;
    justify-content: space-between;
@@ -22,8 +26,10 @@
    .info {
       display: flex;
      align-items: center;
+     margin: 0;
       margin-left: 32px;
       color: white; 
+
    }
    &-srap{
       padding-left: 32px;

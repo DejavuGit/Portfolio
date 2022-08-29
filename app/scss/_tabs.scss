@@ -7,19 +7,19 @@
  padding-bottom: 24px;
  &__item{
   &:nth-child(1) span{
-   background-color: #8543ff;;
+   background-color: #5a30a7;
   }
   &:nth-child(2) span{
-   background-color: crimson;
+   background-color: #9f1a33;
   }
   &:nth-child(3) span{
-   background-color: #d06509;
+   background-color: #0c73b9;
   }
   &:nth-child(4) span{
-   background-color: rgb(28, 135, 207);
+   background-color:  #598f1b;
   }
   &:nth-child(5) span{
-   background-color: #4a9147;
+   background-color: #a59038;
   }
  }
  &__list{
@@ -38,11 +38,11 @@
     width: 60vw;
     margin: 0 auto;
    }
-   &:nth-child(2) .label{background-color: #8543ff;}
-   &:nth-child(3) .label{background-color: crimson;}
-   &:nth-child(4) .label{background-color: #d06509}
-   &:nth-child(5) .label{background-color: rgb(28, 135, 207);}
-   &:nth-child(6) .label{background-color: #4a9147;}
+   &:nth-child(2) .label{background-color: #5a30a7;}
+   &:nth-child(3) .label{background-color: #9f1a33;}
+   &:nth-child(4) .label{background-color: #598f1b;}
+   &:nth-child(5) .label{background-color: #0c73b9;}
+   &:nth-child(6) .label{background-color: #a59038;}
  }
  &__btn{
 width: 190px;

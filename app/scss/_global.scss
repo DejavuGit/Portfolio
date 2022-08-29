@@ -5,14 +5,20 @@ body{
 body{
     font-size: 16px;
     line-height: 26px;
-
+    background-image: url('../images/bg2.jpg');
+    // background-image: url('../images/bg11.jpg');
+    background-size: cover;
+    // background-position: 50% 120%;
+    background-repeat: no-repeat;
+    color: #fff;
+    // filter: brightness(1) saturate(0.3) contrast(1.2) blur(15px);
  
 }
 .main{
     flex-grow: 1;
 }
 .container{
-    max-width: 1440px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0;
 }

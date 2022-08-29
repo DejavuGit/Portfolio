@@ -23,13 +23,16 @@
   --clouds-foreground: #e3f4f9;
 }
 
-$shooting-time: 3000ms;
+$shooting-time: 2000ms;
 
 
 .logo {
 padding: 2rem;
-height: 580px;
-  width: 580px;
+height: 600px;
+// width: 53vw;
+width: 600px;
+
+
   margin: 0 auto;
  
   display: flex;
