@@ -38,6 +38,7 @@ function scripts() {
     return src([
         'node_modules/jquery/dist/jquery.js',
         'app/simpleBar/simplebar.js',
+        
         'node_modules/swiper/swiper-bundle.js',
         'app/js/main.js'
     ])
@@ -80,6 +81,7 @@ function build() {
         'app/css/style.min.css',
         'app/fonts/**.**',
         'app/favicon/**.**',
+        'app/js/tabs.js',
         'app/js/main.min.js'
     ], {base: 'app'})
     .pipe(dest('dist'))
