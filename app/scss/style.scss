@@ -1,8 +1,7 @@
 
 @import 'tabs';
 @import 'works';
-
-@import 'sipmle';
+// @import 'sipmle';
 @import 'picture1';
 @import 'vars';
 @import 'fonts';
@@ -129,22 +128,20 @@
   display: flex;
   flex-direction: column;
   // justify-content: flex-end;
+ } 
+ .contact__link svg{
+  fill: $black;
+  width: 32px;
+  height: 32px;
+  transition: all 0.4s ease-in;
  }
+
+ 
  .contact{
-  &__link{
-    svg{
-      fill: $black;
-      width: 32px;
-      height: 32px;
-      transition: all 0.4s ease-in;
-      
-    }
-  }
+ 
   &__wrap{
    width: 100%;
    display: flex;
-  //  justify-content: space-between;
-  //  margin-bottom: 8px;
 
   &-rowt{
     display: flex;
