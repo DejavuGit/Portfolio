@@ -131,12 +131,21 @@
   // justify-content: flex-end;
  }
  .contact{
+  &__link{
+    svg{
+      fill: $black;
+      width: 32px;
+      height: 32px;
+      transition: all 0.4s ease-in;
+      
+    }
+  }
   &__wrap{
    width: 100%;
    display: flex;
   //  justify-content: space-between;
   //  margin-bottom: 8px;
-  
+
   &-rowt{
     display: flex;
     justify-content: space-between;
@@ -159,10 +168,7 @@
     box-shadow: 2px 3px 15px 4px rgba(77, 221, 240, 0.35);
     
     transition: all 0.3s ease-in;
-    svg{
-      width: 32px;
-      height: 32px;
-    }
+    
     &:not(:last-child){
       margin-right: 1rem;
     }
@@ -191,12 +197,7 @@
       }
     }
    
-    svg{
-      fill: $black;
-      
-      transition: all 0.4s ease-in;
-      
-    }
+   
    }
    
   }
