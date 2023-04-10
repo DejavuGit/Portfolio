@@ -1,499 +1,255 @@
 <!DOCTYPE html>
-<html lang="ru">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dejavu</title>
-
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-  <link rel="manifest" href="favicon/site.webmanifest">
-  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-
-
-  <link rel="stylesheet" href="simpleBar/simplebar.css" />
-  <link rel="stylesheet" href="swiper/swiper.min.css" />
-  <link rel="stylesheet" href="swiper/modules/navigation/navigation.min.css" />
-  <link rel="stylesheet" href="swiper/modules/pagination/pagination.min.css" />
-  <link rel="stylesheet" href="css/style.min.css" />
-</head>
-
-<body data-simplebar>
-  <section class="info">
-    <div class="container">
-      <div class="info__wrap">
-
-        <img src="images/me.png" alt="me" class="my-photo" />
-
-        <div class="skills info__item">
-          <ul class="skills__list">
-            <h3 class="info__title">Навыки</h3> 
-            <li class="skills__item">
-              Уверенное владение
-              <span style="background-color: #de5200">HTML5</span>
-              <span style="background-color: #225ac2">CSS3</span>
-            </li>
-            <li class="skills__item">
-              Базовые знания
-              <span style="background-color: #ffd400; color: #2f2f2f">JavaScript</span>
-            </li>
-            <li class="skills__item">Адаптивная, кросбраузерная верстка</li>
-            <li class="skills__item">Умение генерировать идеи</li>
-            <li class="skills__item skills__tags">
-              <span>Git</span>
-              <span>Gulp</span>
-              <span>Qjuery</span>
-              <span>Scss</span>
-              <span>Figma</span>
-              <span>Photoshop</span>
-              <span>БЭМ</span>
-            </li>
-          </ul>
-           <div class="contacts"> 
-           
-            <h3 class="contact__title">Контакты</h3>
-            <div class="contact__wrap">
-  
-              <a href="https://t.me/Dejavu151" target="_blank" class="contact__link"><svg class="">
-                  <use xlink:href="images/sprite.svg#telega"></use>
-                </svg></a>
-              <a href="mailto:Dejavu-w@yandex.ru" target="_blank" class="contact__link"><svg class="">
-                  <use xlink:href="images/sprite.svg#mail"></use>
-                </svg></a>
-              <a href="tel:+79533629737" target="_blank" class="contact__link"><svg class="">
-                  <use xlink:href="images/sprite.svg#phone"></use>
-                </svg></a>
-  
-  
-              <a href="https://vk.com/alex_voituk" target="_blank" class="contact__link"><svg class="">
-                  <use xlink:href="images/sprite.svg#vk"></use>
-                </svg></a>
-              <a href="https://www.instagram.com/leshka2288/" target="_blank" class="contact__link"><svg class="">
-                  <use xlink:href="images/sprite.svg#insta"></use>
-                </svg></a>
-  
-  
-  
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <div class="header">
+          <div class="header__me">
+            <img src="images/me.png" alt="me" class="header__img" />
+            <div class="header__box">
+              <div class="header__name">Алексей Войтюк</div>
+              <div class="header__job"> Frontend developer</div>
             </div>
-          </div>  
-        </div>
-        <div class="info__about info__item">
-          <h3 class="info__title">Немного о себе</h3>
-          <p class="info__text">Алексей Войтюк 24 года, не женат</p>
-          <p class="info__text"> 
-          
-            Считаю создание сайтов интересным, творческим и
-            полезным для общества делом. Хочу развиваться в&nbsp;этом
-            направлении, что&nbsp;бы в&nbsp;итоге делать функциональные, красивые и&nbsp;удобные сайты,
-            дорого! 
-            Желаю занять должность junior-frontend разработчика/верстальщика с&nbsp;зарплатой от&nbsp;<span>60&nbsp;000&nbsp;₽</span>
+          </div>
+          <div class="header__contacts">
+            <ul class="contacts">
+              <li class="contact__item">
+                <div class="contact__link" target="_blank">
+                  <svg class="">
+                    <use xlink:href="images/sprite.svg#phone"></use>
+                  </svg>
+                  8 953 362 97 37
+                </div>
+              </li>
+              <li class="contact__item">
+                <a
+                  href="https://t.me/Dejavu151"
+                  class="contact__link"
+                  target="_blank"
+                >
+                  <svg class="">
+                    <use xlink:href="images/sprite.svg#telega"></use></svg
+                  >Dejavu151</a
+                >
+              </li>
 
-          </p>
+              <li class="contact__item">
+                <a
+                  href="https://github.com/DejavuGit"
+                  class="contact__link"
+                  target="_blank"
+                >
+                  <svg class="">
+                    <use xlink:href="images/sprite.svg#git"></use></svg
+                  >DejavuGit</a
+                >
+              </li>
+              <li class="contact__item">
+                <a
+                  href="mailto:Dejavu-w@yandex.ru"
+                  class="contact__link"
+                  target="_blank"
+                >
+                  <svg class="">
+                    <use xlink:href="images/sprite.svg#mail"></use></svg
+                  >Dejavu-w@yandex.ru</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-        
+        <div class="main-info">
+          <div class="main-info__wrap">
+            <div class="main-info__left">
+              <div class="skills">
+                <div class="title">
+                  <svg class="">
+                    <use xlink:href="images/sprite.svg#skills"></use>
+                  </svg>
+                  Навыки
+                </div>
+                <ul class="skills__list">
+                  <li class="skills__item">
+                    <svg class="">
+                      <use xlink:href="images/sprite.svg#check"></use>
+                    </svg>
+                    HTML/SCSS
+                  </li>
+                  <li class="skills__item">
+                    <svg class="">
+                      <use xlink:href="images/sprite.svg#check"></use>
+                    </svg>
+                    JS/TS
+                  </li>
+                  <li class="skills__item">
+                    <svg class="">
+                      <use xlink:href="images/sprite.svg#check"></use>
+                    </svg>
+                    React
+                  </li>
+                  <li class="skills__item">
+                    <svg class="">
+                      <use xlink:href="images/sprite.svg#check"></use>
+                    </svg>
+                    GIT
+                  </li>
+                  <li class="skills__item">
+                    <svg class="">
+                      <use xlink:href="images/sprite.svg#check"></use>
+                    </svg>
+                    Gulp/Webpack
+                  </li>
+                  <li class="skills__item">
+                    <svg class="">
+                      <use xlink:href="images/sprite.svg#check"></use>
+                    </svg>
+                    Figma/Pfotoshop
+                  </li>
+                </ul>
+              </div>
+              <div class="about">
+                <div class="title">
+                  <svg class="">
+                    <use xlink:href="images/sprite.svg#about"></use>
+                  </svg>
+                  Обо мне
+                </div>
+                <div class="about__text">
+                  Занимаюсь frontend разработкой. Верстка, оформление, анимации,
+                  интерактивность. Считаю создание сайтов интересным, творческим
+                  и&nbsp;полезным для общества делом. Хочу развиваться
+                  в&nbsp;этом направлении, что&nbsp;бы в&nbsp;итоге делать
+                  функциональные, красивые и&nbsp;удобные сайты, дорого!
+                </div>
+              </div>
+              <div class="ed">
+                <div class="title">
+                  <svg class="">
+                    <use xlink:href="images/sprite.svg#ed"></use>
+                  </svg>
+                  Образование
+                </div>
+                <div class="ed__title">
+                  <span>2015 — 2019</span> : Высшая школа технологии и
+                  энергетики
+                </div>
+                <div class="ed__text">
+                  <span>Специальность </span> : Автоматизация технологических
+                  процессов
+                </div>
+              </div>
+            </div>
+            <div class="main-info__right">
+              <div class="project">
+                <div class="title">
+                  <svg class="">
+                    <use xlink:href="images/sprite.svg#works"></use>
+                  </svg>
+                  Проекты
+                </div>
+                <ul class="works__list">
+                    <li class="works__item">
+                        <div class="works__top">
+                          <div class="works__title">
+                            <span>Лендинг оружейного магазина</span>
+                          </div>
+                          <a
+                            href="https://dejavugit.github.io/Arsenal/dist/index.html"
+                            class="works__link"
+                            target="_blank"
+                          >
+                            <svg class="">
+                              <use xlink:href="images/sprite.svg#link"></use></svg
+                          ></a>
+                        </div>
+    
+                        <div class="works__description">
+                          <div class="works__text">
+                            <div class="works__text-item">CSS анимация</div>
+                            <div class="works__text-item">Яндекс карта</div>
+    
+                            <div class="works__text-item">Адаптив</div>
+                            <div class="works__text-item">Собственный дизайн</div>
+                          </div>
+                        </div>
+                      </li> 
+                  <li class="works__item">
+                    <div class="works__top">
+                      <div class="works__title">
+                        <span>Интеренет магазин цветов</span>
+                      </div>
+                      <a
+                        href="https://dejavugit.github.io/Flowers/dist/index.html"
+                        class="works__link"
+                        target="_blank"
+                      >
+                        <svg class="">
+                          <use xlink:href="images/sprite.svg#link"></use></svg
+                      ></a>
+                    </div>
+
+                    <div class="works__description">
+                      <div class="works__text">
+                        <div class="works__text-item">Модальные окна на js</div>
+                        <div class="works__text-item">Яндекс карта</div>
+                        <div class="works__text-item">
+                          Корзина товаров на js
+                        </div>
+                        <div class="works__text-item">Адаптив</div>
+                        <div class="works__text-item">Собственный дизайн</div>
+                      </div>
+                    </div>
+                  </li>
+                          
+                  <li class="works__item">
+                    <div class="works__top">
+                      <div class="works__title">
+                        <span> Интерент магазин обоев</span>
+                      </div>
+                      <a
+                        href="https://dejavugit.github.io/wallpaper/dist/index.html"
+                        class="works__link"
+                        target="_blank"
+                      >
+                        <svg class="">
+                          <use xlink:href="images/sprite.svg#link"></use></svg
+                      ></a>
+                    </div>
+
+                    <div class="works__description">
+                      <div class="works__text">
+                        <div class="works__text-item">Gulp</div>
+                        <div class="works__text-item">JQuery</div>
+                        <div class="works__text-item">Flex</div>
+                        <div class="works__text-item">Grid</div>
+                        <div class="works__text-item">Адаптив</div>
+
+                        <div class="works__text-item">CSS анимация</div>
+
+                        <div class="works__text-item">Собственный дизайн</div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+             
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
-
-  <img src="images/wave.png" alt="wave" class="wave" />
-
-  <section class="test">
-    <div class="test-wrap">
-
-        <legend class="works__title">Мои работы</legend>
-        <div class="tabs">
-          <ul class="tabs__list">
-            <li class="tabs__item">
-              <button class="tabs__btn tabs__btn--active" data-tabs-path="work-1"> Лендинг <span
-                  class="tabs__btn__num">01</span></button>
-            </li>
-            <li class="tabs__item">
-              <button class="tabs__btn" data-tabs-path="work-2"> Интерент магазин<span class="tabs__btn__num">02</span></button>
-            </li>
-            <li class="tabs__item">
-              <button class="tabs__btn" data-tabs-path="work-3"> Интерент магазин<span class="tabs__btn__num"> 03</span></button>
-            </li>
-            <li class="tabs__item">
-              <button class="tabs__btn" data-tabs-path="work-4">Учебная платформа  <span class="tabs__btn__num"> 04</span></button>
-            </li>
-            <li class="tabs__item">
-              <button class="tabs__btn" data-tabs-path="work-5"> TOP SECRET <span class="tabs__btn__num"> 05</span></button>
-            </li>
-          </ul>
-          <div class="tabs__content tabs__content--active" data-tabs-target="work-1">
-            <div class="tabs__content__inner">
-              <div class="works__item">
-                <div class="label">
-                  <div class="label-srap" style="display: flex;">
-                    <div class="icon">
-                      <svg class="works__icon" style>
-                        <use xlink:href="images/sprite.svg#gun"></use>
-                      </svg>
-                    </div>
-                    <div class="info">
-                      <div class="works__name__title">Arsenal</div>
-                      
-                    </div>
-                  </div>
-                  <ul class="works__list">
-                    <li class="works__list__item">
-                      <p class="works__list__info">i</p>
-                      <span class="tooltip">Небольшой красивый лендинг. Есть анимации, яндекс карта, слайдеры </span>
-                    </li>
-  
-                    <li class="works__list__item ">
-                      <a href="https://dejavugit.github.io/Arsenal/dist/index.html" target="_blank">
-                        <svg class="">
-                          <use xlink:href="images/sprite.svg#link"></use>
-                        </svg>
-                      </a>
-  
-                    </li>
-  
-                    <li class="works__list__item">
-                      <a href="https://github.com/DejavuGit/Arsenal/tree/build/app" class="works-git">
-                        <svg class="works__icon">
-                          <use xlink:href="images/sprite.svg#git"></use>
-                        </svg>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div class=" works__item--landing" data-simplebar>
-                  <img src="images/arsenal.jpg" alt="arsenal">
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <div class="tabs__content " data-tabs-target="work-2">
-            <div class="tabs__content__inner">
-              <div class="works__item">
-                <div class="label">
-                  <div class="label-srap" style="display: flex;">
-                    <div class="icon">
-                      <svg class="works__icon">
-                        <use xlink:href="images/sprite.svg#flowers"></use>
-                      </svg>
-                    </div>
-                    <div class="info">
-                      <div class="works__name__title">Fast flowers</div>
-                    
-                    </div>
-                  </div>
-                  <ul class="works__list">
-                    <li class="works__list__item">
-                      <p class="works__list__info">i</p>
-                      <span class="tooltip">Интерент магазин, по продаже цветов, с доставкой. На данном сайте есть корзина и модальные окна, реализованные с помощью js. Так же используются различные плагины для красивого внешнего вида.</span>
-                    </li>
-                    <li class="works__list__item">
-                      <a href="https://dejavugit.github.io/Flowers/dist/index.html" target="_blank">
-                        <svg class="">
-                          <use xlink:href="images/sprite.svg#link"></use>
-                        </svg>
-                      </a>
-  
-                    </li>
-                 
-                    <li class="works__list__item">
-                      <a href="https://github.com/DejavuGit/Flowers/tree/main/app" target="_blank" class="works-git">
-                        <svg class="works__icon">
-                          <use xlink:href="images/sprite.svg#git"></use>
-                        </svg>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="works__item__slider">
-                  <div class="swiper">
-                    <div class="swiper-wrapper">
-
-                      <div class="swiper-slide" data-simplebar>
-                        <img src="images/ff/main.jpg" alt="main">
-                      </div>
-                      <div class="swiper-slide" data-simplebar>
-                        <img src="images/ff/catalog.jpg" alt="catalog">
-                      </div>
-                      <div class="swiper-slide" data-simplebar>
-                        <img src="images/ff/item.jpg" alt="item">
-                      </div>
-                      <div class="swiper-slide" data-simplebar>
-                        <img src="images/ff/cart.jpg" alt="cart">
-                      </div>
-                      <div class="swiper-slide" data-simplebar>
-                        <img src="images/ff/login.jpg" alt="login">
-                      </div>
-
-
-                    </div>
-
-
-
-
-                    <div class="swiper-button-prev">
-                      <svg class="ar-l">
-                        <use xlink:href="images/sprite.svg#ar"></use>
-                      </svg>
-                    </div>
-                    <div class="swiper-button-next">
-                      <svg class="">
-                        <use xlink:href="images/sprite.svg#ar"></use>
-                      </svg>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div class="tabs__content" data-tabs-target="work-4">
-            <div class="tabs__content__inner">
-
-              <div class="works__item" >
-                <div class="label">
-                  <div class="label-srap" style="display: flex;">
-                    <div class="icon">
-                      <svg class="works__icon" style>
-                        <use xlink:href="images/sprite.svg#vi"></use>
-                      </svg>
-                    </div>
-                    <div class="info">
-                      <div class="works__name__title">Не школа барабанов</div>
-                    
-                    </div>
-                  </div>
-                  <ul class="works__list">
-                    <li class="works__list__item">
-                      <p class="works__list__info">i</p>
-                      <span class="tooltip">Учебная платформа для музыкальной школы. Удобное прохождение уроков, новости и мероприятия школы, мазагин</span>
-                    </li>
-
-                    <li class="works__list__item landing__link">
-                      <a href="https://github.com/DejavuGit/Drums" target="_blank">
-                        <svg class="">
-                          <use xlink:href="images/sprite.svg#link"></use>
-                        </svg>
-                      </a>
-
-                    </li>
-
-                    <li class="works__list__item">
-                      <a href="https://dejavugit.github.io/Drums/dist/index.html" class="works-git" target="_blank">
-                        <svg class="works__icon">
-                          <use xlink:href="images/sprite.svg#git"></use>
-                        </svg>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="works__item__slider">
-                  <div class="swiper">
-
-
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide" data-simplebar>
-                        <img src="images/drums/main.jpg" alt="profile">
-                      </div>
-                      <div class="swiper-slide" data-simplebar>
-                        <img src="images/drums/les.jpg"  alt="student">
-                      </div>
-                    
-                    </div>
-
-                    <div class="swiper-button-prev">
-                      <svg class="ar-l">
-                        <use xlink:href="images/sprite.svg#ar"></use>
-                      </svg>
-                    </div>
-                    <div class="swiper-button-next">
-                      <svg class="">
-                        <use xlink:href="images/sprite.svg#ar"></use>
-                      </svg>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-                </div>
-              </div>
-
-
-
-
-
-
-
-            </div>
-          </div>
-          <div class="tabs__content" data-tabs-target="work-3">
-            <div class="tabs__content__inner">
-              <div class="works__item">
-                <div class="label">
-                  <div class="label-srap" style="display: flex;">
-                    <div class="icon">
-                      <svg class="works__icon">
-                        <use xlink:href="images/sprite.svg#wp"></use>
-                      </svg>
-                    </div>
-                    <div class="info">
-                      <div class="works__name__title">Wallpappers from Fedor</div>
-                   
-                    </div>
-                  </div>
-                  <ul class="works__list">
-                    <li class="works__list__item">
-                      <p class="works__list__info">i</p>
-                      <span class="tooltip">Интерент магазин, по продаже обоев. Первый проект, пробую стандартные вещи: слайдеры, табы, ховер эффекты и прочие прелести верстки</span>
-                    </li>
-
-
-
-
-                    <li class="works__list__item ">
-                      <a href="https://dejavugit.github.io/wallpaper/dist/index.html" target="_blank">
-                        <svg class="">
-                          <use xlink:href="images/sprite.svg#link"></use>
-                        </svg>
-                      </a>
-  
-                    </li>
-
-                    <li class="works__list__item">
-                      <a href="https://github.com/DejavuGit/wallpaper/tree/dist/app" class="works-git">
-
-
-                        <svg class="works__icon">
-                          <use xlink:href="images/sprite.svg#git"></use>
-                        </svg>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="works__item__slider">
-                  <div class="swiper">
-
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide" data-simplebar>
-                        <img src="images/wfp/wfp-main.jpg" alt="ff">
-                      </div>
-                      <div class="swiper-slide" data-simplebar>
-                        <img src="images/wfp/wfp-catalog.jpg" alt="ff">
-                      </div>
-                      <div class="swiper-slide" data-simplebar>
-                        <img src="images/wfp/wfp-tovar.jpg" alt="ff">
-                      </div>
-                      <div class="swiper-slide" data-simplebar>
-                        <img src="images/wfp/wfp-login.jpg" alt="ff">
-                      </div>
-                   
-
-
-                    </div>
-
-
-                    <div class="swiper-button-prev">
-                      <svg class="ar-l">
-                        <use xlink:href="images/sprite.svg#ar"></use>
-                      </svg>
-                    </div>
-                    <div class="swiper-button-next">
-                      <svg class="">
-                        <use xlink:href="images/sprite.svg#ar"></use>
-                      </svg>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-                </div>
-
-              </div>
-
-            </div>
-          </div>
-          <div class="tabs__content" data-tabs-target="work-5">
-          
-
-
-              <div class="tabs__content__inner">
-                <div class="works__item" >
-                  <div class="label">
-                    <div class="label-srap" style="display: flex;">
-                      <div class="icon">
-                        <svg class="works__icon">
-                          <use xlink:href="images/sprite.svg#hz"></use>
-                        </svg>
-                      </div>
-                      <div class="info">
-                        <div class="works__name__title">В разрабоке</div>
-                     
-                      </div>
-                    </div>
-           
-                  </div>
-                  <div class="picture">
-                    <div class="logo">
-                      <div class="square">
-                        <div class="shooting_star"></div>
-                        <div class="shooting_star"></div>
-                        <div class="shooting_star"></div>
-      
-                        <div class="starfield"></div>
-                        <div class="starfield"></div>
-                        <div class="planet"></div>
-      
-                        <div class="clouds">
-                          <div class="clouds_background"></div>
-                          <div class="clouds_background"></div>
-                          <div class="clouds_background"></div>
-                          <div class="clouds_background"></div>
-      
-                          <div class="clouds_mid cloudmid1"></div>
-                          <div class="clouds_mid cloudmid2"></div>
-                          <div class="clouds_mid cloudmid3"></div>
-                          <div class="clouds_mid cloudmid4"></div>
-                          <div class="clouds_mid cloudmid5"></div>
-      
-                          <div class="clouds_foreground cloudforeground1"></div>
-                          <div class="clouds_foreground cloudforeground2"></div>
-                          <div class="clouds_foreground cloudforeground3"></div>
-                          <div class="clouds_foreground cloudforeground4"></div>
-                          <div class="clouds_foreground cloudforeground5"></div>
-                          <div class="clouds_foreground cloudforeground6"></div>
-                          <div class="clouds_foreground cloudforegroundbase"></div>
-                        </div>
-                        <div class="moon">
-                          <div class="crator crator1"></div>
-                          <div class="crator crator2"></div>
-                          <div class="crator crator3"></div>
-                        </div>
-                        <div class="shooting_star"></div>
-                        <div class="shooting_star"></div>
-                        <div class="outline"></div>
-      
-                      </div>
-                    </div>
-                  </div>
-                  
-  
-                </div>
-  
-              </div>
-
-
-              
-
-            
-          </div>
-        </div>
-
-    </div>
-  </section>
-
- 
-  <script src="js/tabs.js"></script>
-  <script src="js/main.min.js"></script>
-</body>
-
+    </main>
+    <script src="js/main.min.js"></script>
+  </body>
 </html>
